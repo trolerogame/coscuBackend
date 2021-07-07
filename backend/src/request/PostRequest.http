@@ -1,0 +1,33 @@
+GET http://localhost:3002/post
+
+###
+
+POST http://localhost:3001/post/create
+Content-Type: application/json
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwY2U3YTVkMjQ3N2U3MjMyODQ4NjA4NCIsInVzZXJuYW1lIjoiZGFuaWUiLCJpYXQiOjE2MjQxNDQ0Nzh9.WrajrscEGfEZHDnfYjL22UbAymK9W0ULkvHWa01CBy0
+
+{
+    "url": "caca"
+}
+
+
+###
+
+PATCH  http://localhost:3001/post/update/60ce7a6c2477e72328486089
+content-type: application/json
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwY2U3YTVkMjQ3N2U3MjMyODQ4NjA4NCIsInVzZXJuYW1lIjoiZGFuaWUiLCJpYXQiOjE2MjQxNDQ0Nzh9.WrajrscEGfEZHDnfYjL22UbAymK9W0ULkvHWa01CBy0
+
+{
+    "description":"tu germu 😍"
+}
+
+###
+
+DELETE http://localhost:3001/post/delete/60cd7367c6067939a88f50e3
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwY2Q3MGZlY2Y4MDE2MjQxOGY2YjQyZCIsInVzZXJuYW1lIjoiZGFuaWVsIGNhbXBvcyIsImlhdCI6MTYyNDA3NzExMH0.jAGQXju6QFWDksbCyYEnV0g7rW3MencI4sygk-ljmyY
+
+
+###
+
+POST http://localhost:3001/post/image/60ce7a6c2477e72328486089
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwY2U3YTVkMjQ3N2U3MjMyODQ4NjA4NCIsInVzZXJuYW1lIjoiZGFuaWUiLCJpYXQiOjE2MjQxNDQ0Nzh9.WrajrscEGfEZHDnfYjL22UbAymK9W0ULkvHWa01CBy0

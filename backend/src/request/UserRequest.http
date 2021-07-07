@@ -1,0 +1,36 @@
+GET http://localhost:3002/users
+###
+GET http://localhost:3001/users/info
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwY2U3YTVkMjQ3N2U3MjMyODQ4NjA4NCIsInVzZXJuYW1lIjoiZGFuaWUiLCJpYXQiOjE2MjQxNDQ0Nzh9.WrajrscEGfEZHDnfYjL22UbAymK9W0ULkvHWa01CBy0
+
+### CREACION DEL USUARIO
+POST http://localhost:3002/users/register
+Content-Type: application/json
+
+{
+    "username":"danie",
+    "email":"trolerogame@gmail.com",
+    "password":"45540760"
+}
+### LOGIN DEL USUARIO
+POST http://localhost:3002/users/login
+Content-Type: application/json
+
+{
+    "username":"daniel",
+    "password":"negra2010"
+}
+
+###  ACTUALIZACION DEL USUARIO
+PATCH http://localhost:3002/users/update
+content-type: application/json
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZGJkOTZiYTIwMzc3Mjg5MDMwY2ZkYSIsInVzZXJuYW1lIjoiZGFuaWUiLCJpYXQiOjE2MjUwMjA3OTR9.2GWjOIMekrmGRWmB67tRvzhzrsbDPZIlYKBeHWD8HDQ
+
+{
+    "username":"rulombo",
+    "email":"daniel@gmail.com"
+}
+
+### ELIMINACION DEL USUARIO
+DELETE http://localhost:3002/users/delete
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwY2Y4MTAxZGI1MTBiMjVkY2Y2MjQ0NyIsInVzZXJuYW1lIjoiZGFuaWUiLCJpYXQiOjE2MjQyMTIyOTB9._riCE9fU21pEDDFarejdRRCCfaA7RcEvv7klyro2_ZE

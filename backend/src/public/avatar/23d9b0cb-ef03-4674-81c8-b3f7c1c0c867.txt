@@ -1,0 +1,83 @@
+
+Definicion machine learning: 
+el aprendizaje automatico es utilizar un algoritmo 
+que es capaz de ir mejorando y ganando experiencia 
+sin tener que programarse cada caso y asi mejorandose 
+asi mismo
+
+clasificacion:
+
+* Supervised Learning: aprendisaje a 
+ base de ejemplos (como lo hace un maestro)
+
+*unSupervised Learning:
+ en este no se le dice de que se trata lo 
+ pasado y el tiene que darle una definicion 
+ en base a las caracteristicas
+
+*Reinforced Learning:
+ dejamos que aprenda por su cuenta, que haga 
+ prueba y error para que asi su recompensa si
+ acierta sea mayor
+
+*Natural Language Proccessing:
+ este intenta de aprende en base a texto que le
+ pasemos , por ejemplo le podemos pasar una
+ palabra y tiene que reconocer en que idioma esta
+
+*Deep leep:
+ lo que hace es que en base conjunto de algoritmos
+ intetan modelar abstracciones de alto nivel
+ en datos usando arquitectura compuesta
+
+
+ APRENDISAJE SUPERVISADO:
+  LINEAR REGRESSION: en base a muchas varaibles independientes busca
+  hallar la la variable dependiente, existen la regression simple y la
+  multiple. la simple se centra en que las variable indenpendiente tienen
+  que estar muy relacionadas a la dependiente y la multiple que en base
+  en la relacion de la variable dependiente con dos o mas variables independientes
+  
+  POLYNOMIAL REGRESSION:modela relacion entre la variable dependiente
+  y las variables independiente con un polinomio de orden n 
+
+  SUPPORT VECTOR REGRESSION:en bases a datos saca un linea de promedio
+  y en base a esa linea saca unas bandas que tienen un margen para poder
+  agarrar todos los datos . no necesariamente tiene que ser lineal
+  la linea se adapta a los datos por ende si tenemos datos que dan un
+  polinomio , la linea y las bandas se van a adaptar
+
+  DECISION TREE REGRESSION:toma una condicion , si es true hace una condicion
+  y si es false toma otra condicion, y asi infinitamente
+
+  RANDOM FOREST REGRESSION:crea un bosque con varios arboles de decisiones
+  y entre mayor sea el numero de arboles de decisiones mayor sera la precision
+  de este algoritmo
+
+  LOGISTIC REGRESSION: es un clasificador binario , usa una funcion para
+  predecir si la respueste es 1 o 0 , si o no , verdadero o cerrado , etc
+
+  K-NEAREST NEIGHBORS:lo que hace es en base al dato en especifico mirar su vecino
+  asi lo podemos clasificar 
+
+  SUPPORT VECTOR MACHINE: en base a los datos pasados crea un hiperplano
+  para separar por clase los datos de acuerdo como sea conveniente
+
+  RANDOM FOREST CLASSIFICATION:sigue la misma logia de los tree desiccion
+  pero en vez de un solo arbol son muchos y en base al promedio de los votos
+  saca el resultado
+
+ APRENDESIAJE NO SUPERVISADO:
+   K. MEANS CLUSTERING:
+    es un tipo de aprendisaje donde solo le pasamos la informacion sin nada
+    de agrupacion ni etiqueta, y el objetivo de este algoritmo es encontrar
+    grups en los datos. los datos se agrupan en base a los datos
+   
+   HIERARCHCAL CLUSTERING:
+    se trata basicamente de hacer un conjunto de grupo o cluster donde
+    luego se ve la relacion de cada elemento mas cercano y asi volviendo
+    a los mas cercanos y nuevo cluster
+   
+
+
+  
